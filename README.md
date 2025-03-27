@@ -30,3 +30,5 @@ modèles sur hugging face :
 inférence sur les films, à partir de films qui vont sortir => prédire le score des reviews ?
 
 pour le modèle en positif/négatif, mettre plus de poids quand l'erreur est entre positif/negatif qu'entre positif et très positif ?
+
+Modele sur la doc tensorflow dont on peut s'inspirer: https://www.tensorflow.org/text/tutorials/classify_text_with_bert

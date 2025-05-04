@@ -30,7 +30,7 @@ of approximately 230 words (standard deviation: 170 words), 7.6% of them exceedi
 The vocabulary distribution followed a small number of frequent function words and a long tail
 of infrequent terms.
 
-The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
+The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our needs is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
 
 The exploration of the data was mostly equally shared between the two authors, with the statitistics regarding the review's distribution across movies and grades done by Floriane Zanella and the distribution of review length and word frequency by Paul Dupire.
 
@@ -131,6 +131,6 @@ These results highlight the importance of addressing both lexical biases and tok
 ## Notebooks and data
 The data can be found [here](http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz).
 
-The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
+The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our needs is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
 
 The notebook containing the code used following this methodology as well as the results is [2_Model_training_and_evaluation.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/2_Model_training_and_evaluation.ipynb). 

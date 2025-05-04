@@ -135,3 +135,5 @@ The data can be found [here](http://ai.stanford.edu/~amaas/data/sentiment/aclImd
 The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our needs is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
 
 The notebook containing the code used following this methodology as well as the results is [2_Model_training_and_evaluation.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/2_Model_training_and_evaluation.ipynb). 
+
+The report can be found [here](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/NLP_Report_Paul_Dupire_Floriane_Zanella.pdf).

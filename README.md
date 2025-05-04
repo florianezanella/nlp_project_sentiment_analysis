@@ -58,7 +58,7 @@ The notebook containing the code used following this methodology as well as the 
 3. **Performance Evaluation**
   - Compare the baseline and mitigated models to assess improvements in classification balance.
 
-C. **Addressing tokenization truncation** - Floriane Zanella (mostly)
+**C. Addressing tokenization truncation** - Floriane Zanella (mostly)
 1. **Implement custom tokenization** to handle long reviews with nuanced sentiment shifts by truncating to the first 128 and last 382 tokens, preserving both the beginning and end of the review
 2. **Re-evaluate the DistilBERT model using the custom tokenization** (Custom Tokenization Model)
 3. **Combine it with lexical sentiment mitigation** (Mixed Model)

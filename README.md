@@ -9,7 +9,7 @@
 This work investigates the **performance of a DistilBERT model for a binary sentiment classification task on movie reviews** from the ACL IMDb dataset : 
 - We first establish a performance baseline by fine-tuning DistilBERT on raw reviews, then use LIME to identify the model’s dependence on high-valence sentiment words.
 - To address this, we introduce a mitigation strategy that replaces extreme sentiment terms with more neutral alternatives, aiming to improve generalization—particularly for negative reviews.
-- Additionally, we implement a custom tokenization function to reduce the performance loss caused by truncation of long inputs.
+- Additionally, we implement a custom tokenization function to reduce the performance loss caused by automated truncation of long inputs to the 510 first tokens using the DistilBERT tokenizer..
 - Finally, we evaluate a hybrid model that combines both techniques and benchmark all approaches against the baseline and the original results from Maas et al. (2011), using metrics such as accuracy, ROC-AUC, recall, and qualitative analysis.
 
 ---
@@ -40,6 +40,7 @@ The exploration of the data was mostly equally shared between the two authors, w
 The project was conducted by the two authors in equal ways and each part of the project has been under discussion and co-construction with the two authors working with no exceptions. For the requirements of the course, the participation of each authors is outlined when it was greater than the other. It is although important to keep in mind that each author contributed to every part. 
 
 The notebook containing the code used following this methodology as well as the results is [2_Model_training_and_evaluation.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/2_Model_training_and_evaluation.ipynb). 
+
 
 **A. Baseline model and classification** - Floriane Zanella and Paul Dupire
 1. **Fine-tune the baseline model**

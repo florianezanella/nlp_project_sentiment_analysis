@@ -32,7 +32,7 @@ of infrequent terms.
 
 The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
 
-The exploration of the data was mostly equally shared between the two authors, with the statitistics regarding the review's distribution across movies and grades done by Floriane Zanella and the distribution of review length and plot frequency by Paul Dupire.
+The exploration of the data was mostly equally shared between the two authors, with the statitistics regarding the review's distribution across movies and grades done by Floriane Zanella and the distribution of review length and word frequency by Paul Dupire.
 
 ---
 

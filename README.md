@@ -2,6 +2,7 @@
 **Machine Learning for Natural Language Processing**  
 **ENSAE Paris — 2024–2025**  
 **Authors : Paul Dupire, Floriane Zanella**
+
 **[Report](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/NLP_mini_project_report___Paul_Dupire__Floriane_Zanella.pdf)**
 
 ---

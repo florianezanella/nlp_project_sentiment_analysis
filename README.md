@@ -43,7 +43,7 @@ The notebook containing the code used following this methodology as well as the 
 
 **A. Baseline model and classification** - Floriane Zanella and Paul Dupire
 1. **Fine-tune the baseline model**
-2. **Pre-process using the DistilBERT tokenizer, applying WordPiece segmentation, lowercasing the text, and truncating reviews to 512 tokens, with padding for shorter reviews**
+2. **Pre-process using the DistilBERT tokenizer**, applying WordPiece segmentation, lowercasing the text, and truncating reviews to 512 tokens, with padding for shorter reviews
 3. **Performance evaluation**
    
 **B. LIME analysis of the baseline model and sentiment mitigation** - Paul Dupire (mostly)

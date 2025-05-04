@@ -128,5 +128,9 @@ In summary, the baseline DistilBERT model performs strongly with an accuracy of 
 These results highlight the importance of addressing both lexical biases and tokenization limitations to enhance the performance of sentiment classification models. These performances significantly surpass those of Maas et al. (2011), which was our latent goal.
 
 ---
+## Notebooks and data
+The data can be found [here](http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz).
 
+The notebook containing the preliminary exploration of the data, the descriptive statistics, and the suiting of the datasets to our is [1_Format_explore_data.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/1_Format_explore_data.ipynb). 
 
+The notebook containing the code used following this methodology as well as the results is [2_Model_training_and_evaluation.ipynb](https://github.com/florianezanella/nlp_project_sentiment_analysis/blob/main/2_Model_training_and_evaluation.ipynb). 

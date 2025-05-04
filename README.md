@@ -125,7 +125,7 @@ It offers the best recall but does not surpass the custom tokenization model in 
 
 In summary, the baseline DistilBERT model performs strongly with an accuracy of 93.14% and a ROC-AUC score of 0.98. The mitigated model, which replaces sentiment-laden words with neutral alternatives, slightly reduces overall accuracy but improves performance on negative reviews by lowering false positives. The custom tokenization model, which addresses truncation issues, shows an improvement in recall and precision, demonstrating the value of preserving more contextual information in long reviews. Finally, the mixed model, combining both lexical mitigation and custom tokenization, provides the best recall but does not surpass the custom tokenization model in overall accuracy.
 
-These results highlight the importance of addressing both lexical biases and tokenization limitations to enhance the performance of sentiment classification models. These performances significantly surpass those of Maas et al. (2011), which was our latent goal.
+These results highlight the importance of addressing both lexical biases and tokenization limitations when pretraining models to enhance the performance of sentiment classification models. These performances significantly surpass those of Maas et al. (2011), which was our latent goal.
 
 ---
 ## Notebooks and data
